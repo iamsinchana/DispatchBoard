@@ -1,0 +1,8 @@
+node_modules/
+.next/
+frontend/.next/
+frontend/.env.local
+backend/.env
+.docx
+.ps1
+backend/sql/schemla.sql
