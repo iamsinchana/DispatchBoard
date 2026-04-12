@@ -1,8 +1,7 @@
+.env
+mcp-server/
 node_modules/
-.next/
-frontend/.next/
-frontend/.env.local
-backend/.env
-.docx
-.ps1
-backend/sql/schemla.sql
+.vscode/
+supabase/
+DispatchBoard_Engineering_Spec_v1.docx
+.env.local
