@@ -7,3 +7,4 @@ DispatchBoard_Engineering_Spec_v1.docx
 .env.local
 sql/
 fwdbase/
+.next/
