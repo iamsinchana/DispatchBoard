@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/SINCHANA/Desktop/Dispatchboard2%20-%20Copy/frontend/src/components/ServiceWorker.tsx"],"sourcesContent":["\"use client\";\n\nimport { useEffect } from \"react\";\n\nexport default function ServiceWorker() {\n  useEffect(() => {\n    if (typeof window === \"undefined\") return;\n    if (!(\"serviceWorker\" in navigator)) return;\n\n    const register = async () => {\n      try {\n        await navigator.serviceWorker.register(\"/sw.js\");\n      } catch {\n        // No-op: service worker registration is best-effort in dev.\n      }\n    };\n\n    register();\n  }, []);\n\n  return null;\n}\n"],"names":["ServiceWorker","navigator","register","serviceWorker"],"mappings":";;;;AAEA;;AAFA;;AAIe,SAASA;;IACtB,IAAA,0KAAS;mCAAC;YACR;;YACA,IAAI,CAAC,CAAC,mBAAmBC,SAAS,GAAG;YAErC,MAAMC;oDAAW;oBACf,IAAI;wBACF,MAAMD,UAAUE,aAAa,CAACD,QAAQ,CAAC;oBACzC,EAAE,OAAM;oBACN,4DAA4D;oBAC9D;gBACF;;YAEAA;QACF;kCAAG,EAAE;IAEL,OAAO;AACT;GAjBwBF;KAAAA"}}]
+}

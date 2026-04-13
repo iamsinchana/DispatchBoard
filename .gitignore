@@ -5,3 +5,5 @@ node_modules/
 supabase/
 DispatchBoard_Engineering_Spec_v1.docx
 .env.local
+sql/
+fwdbase/
